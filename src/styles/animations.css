@@ -1,0 +1,38 @@
+@keyframes fade-up {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-up {
+  @apply animate-fade-up;
+}
+
+.scale-hover {
+  @apply transition-transform duration-300 hover:scale-105;
+}
+
+.bounce-hover {
+  @apply transition-transform duration-300 hover:-translate-y-1 hover:shadow-lg;
+}
+
+.rotate-hover {
+  @apply transition-transform duration-300 hover:rotate-3;
+}
+
+.pulse {
+  @apply animate-[pulse_2s_cubic-bezier(0.4,0,0.6,1)_infinite];
+}
+
+.icon-spin {
+  @apply transition-transform hover:rotate-180 duration-700;
+}
+
+.icon-bounce {
+  @apply animate-bounce;
+}

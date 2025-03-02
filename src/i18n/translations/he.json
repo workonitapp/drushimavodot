@@ -1,0 +1,100 @@
+
+{
+  "auth": {
+    "login": "התחברות",
+    "register": "הרשמה",
+    "email": "אימייל",
+    "password": "סיסמה",
+    "passwordHint": "סיסמה (לפחות 8 תווים)",
+    "loginWithEmail": "התחבר עם אימייל",
+    "registerWithEmail": "הרשם עם אימייל",
+    "fillAllFields": "אנא מלא את כל השדות",
+    "invalidEmail": "אנא הזן כתובת אימייל תקינה",
+    "passwordLength": "הסיסמה חייבת להכיל לפחות 8 תווים"
+  },
+  "nav": {
+    "groups": "קבוצות",
+    "jobs": "משרות",
+    "people": "אנשים",
+    "ai": "AI",
+    "courses": "קורסים",
+    "content": "תכנים",
+    "more": "עוד",
+    "documentation": "תיעוד",
+    "pricing": "חבילות",
+    "about": "אודות",
+    "contact": "צור קשר",
+    "search": "חפש...",
+    "comingSoon": "בקרוב",
+    "settings": "הגדרות",
+    "language": "שפה",
+    "theme": "מצב תצוגה",
+    "darkMode": "מצב כהה",
+    "lightMode": "מצב בהיר"
+  },
+  "profile": {
+    "myProfile": "הפרופיל שלי",
+    "candidateProfile": "פרופיל מועמד",
+    "recruiterProfile": "פרופיל מגייס",
+    "settings": "הגדרות",
+    "logout": "התנתק"
+  },
+  "home": {
+    "welcome": "ברוכים הבאים לדרושים עבודות",
+    "featuredJobs": "משרות",
+    "featuredJobsDesc": "גלה את ההזדמנויות התעסוקה האחרונות מהחברות המובילות",
+    "latestContent": "תוכן עדכני",
+    "latestContentDesc": "כתבות, מדריכים וטיפים מקצועיים על עולם העבודה",
+    "hero": {
+      "title": "מעל חצי מיליון חברי קהילה.\nאלפי משרות. תוצאות מדויקות.",
+      "subtitle": "דרושים עבודות זה לא סתם לוח משרות ותוכן – זו קהילה עובדת.\nבעזרתם של מאות אלפי חברים, עשרות קבוצות ברשתות החברתיות, ופלטפורמה מתקדמת, אנחנו הופכים את תהליך החיפוש לפשוט, מהיר ומדויק יותר.",
+      "postJob": "פרסום משרה",
+      "findJob": "חיפוש עבודה"
+    }
+  },
+  "footer": {
+    "logo": "דרושים עבודות",
+    "description": "קהילה עובדת",
+    "contact": "צור קשר",
+    "whatsapp": "אנחנו גם בוואטסאפ",
+    "facebook": "בקר בדף הפייסבוק שלנו",
+    "copyright": "© {year} דרושים עבודות. כל הזכויות שמורות",
+    "allRightsReserved": "כל הזכויות שמורות",
+    "followUs": "עקבו אחרינו",
+    "contactUs": "צור קשר"
+  },
+  "about": {
+    "title": "אודות",
+    "description": "למד עוד על הפלטפורמה שלנו",
+    "content": {
+      "first": "אנחנו מחויבים לחבר בין מחפשי עבודה למעסיקים",
+      "second": "הצטרף לקהילה שלנו ומצא את ההזדמנות הבאה שלך"
+    }
+  },
+  "contact": {
+    "title": "צור קשר",
+    "description": "צור קשר עם הצוות שלנו",
+    "whatsapp": "צור קשר בוואטסאפ",
+    "facebook": "מצא אותנו בפייסבוק"
+  },
+  "jobs": {
+    "apply": "הגש מועמדות",
+    "moreDetails": "פרטים נוספים",
+    "jobDescription": "תיאור התפקיד",
+    "requirements": "דרישות",
+    "benefits": "הטבות",
+    "submitApplication": "הגשת מועמדות",
+    "fullName": "שם מלא",
+    "phone": "טלפון",
+    "resume": "קורות חיים",
+    "additionalNotes": "הערות נוספות",
+    "submit": "שלח",
+    "applicationSuccess": "המועמדות נשלחה בהצלחה!",
+    "location": "מיקום",
+    "salary": "שכר",
+    "type": "סוג משרה",
+    "experience": "ניסיון",
+    "startDate": "תאריך התחלה",
+    "education": "השכלה"
+  }
+}

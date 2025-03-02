@@ -1,0 +1,31 @@
+.card-gradient {
+  @apply bg-gradient-to-br from-primary/10 via-secondary/5 to-accent/10 backdrop-blur-sm 
+         hover:from-primary/20 hover:via-secondary/10 hover:to-accent/20 transition-all duration-300;
+}
+
+.nav-gradient {
+  @apply bg-gradient-to-r from-[#6366f1] via-[#3b82f6] to-[#8b5cf6]
+         dark:from-primary/90 dark:via-secondary/80 dark:to-accent/70 
+         dark:border-b dark:border-white/10;
+}
+
+.content-gradient {
+  @apply bg-gradient-to-br from-background via-secondary/5 to-primary/10;
+}
+
+.hover-gradient {
+  @apply hover:bg-gradient-to-r hover:from-primary/20 hover:via-secondary/10 hover:to-accent/20 
+         transition-all duration-300;
+}
+
+.gradient-text {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-[#6366f1] via-[#3b82f6] to-[#8b5cf6];
+}
+
+.bg-grid-primary {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' width='32' height='32' fill='none' stroke='rgb(148 163 184 / 0.05)'%3e%3cpath d='M0 .5H31.5V32'/%3e%3c/svg%3e");
+}
+
+.bg-dot-primary {
+  background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='10' cy='10' r='1.5' fill='%238b5cf6' fill-opacity='0.05'/%3E%3C/svg%3E");
+}

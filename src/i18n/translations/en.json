@@ -1,0 +1,45 @@
+{
+  "home": {
+    "hero": {
+      "title": "Over Half a Million\nCommunity Members. Thousands of Jobs. Precise Results.",
+      "subtitle": "Drushim Avodot isn't just another job board and content platform - it's a thriving work community. Leveraging our hundreds of thousands of members, dozens of social media groups, and advanced platform technology, we're making job searching simpler, faster, and more precise.",
+      "postJob": "Post a Job",
+      "findJob": "Search Jobs"
+    }
+  },
+  "nav": {
+    "groups": "Groups",
+    "jobs": "Jobs",
+    "people": "People",
+    "ai": "AI",
+    "courses": "Courses",
+    "content": "Content",
+    "more": "More",
+    "documentation": "Documentation",
+    "pricing": "Pricing",
+    "about": "About",
+    "contact": "Contact",
+    "comingSoon": "Coming Soon",
+    "language": "Language"
+  },
+  "auth": {
+    "login": "Login",
+    "register": "Register"
+  },
+  "profile": {
+    "myProfile": "My Profile",
+    "candidateProfile": "Candidate Profile",
+    "recruiterProfile": "Recruiter Profile",
+    "settings": "Settings",
+    "logout": "Logout"
+  },
+  "modals": {
+    "recruiterRequired": {
+      "title": "Recruiter Account Required",
+      "message": "You need to sign up as a recruiter to post jobs."
+    }
+  },
+  "common": {
+    "close": "Close"
+  }
+}

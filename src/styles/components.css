@@ -1,0 +1,58 @@
+.glass {
+  @apply bg-white/10 backdrop-blur-lg border border-white/20 rounded-2xl dark:bg-black/10;
+}
+
+.fun-card {
+  @apply rounded-2xl bg-gradient-to-br from-primary/5 via-secondary/5 to-accent/5 
+         border border-white/20 shadow-xl backdrop-blur-sm
+         hover:shadow-2xl hover:scale-[1.02] hover:border-primary/30
+         transition-all duration-300 ease-out;
+}
+
+.fun-button {
+  @apply rounded-full bg-gradient-to-r from-[#9b87f5] via-[#0EA5E9] to-[#D946EF]
+         text-white font-bold py-2 px-6
+         hover:shadow-lg hover:-translate-y-0.5
+         active:translate-y-0 active:shadow-md
+         transition-all duration-300;
+}
+
+.fun-input {
+  @apply rounded-xl border-2 border-primary/20
+         focus:border-primary focus:ring-2 focus:ring-primary/20
+         transition-all duration-300;
+}
+
+.fun-badge {
+  @apply rounded-full px-3 py-1 text-sm font-medium
+         bg-gradient-to-r from-[#9b87f5] to-[#D946EF] text-white
+         shadow-md hover:shadow-lg transition-all duration-300;
+}
+
+.fun-list-item {
+  @apply flex items-center gap-2 py-1 bounce-hover;
+}
+
+.fun-list-item::before {
+  @apply content-['🎯'];
+}
+
+.service-card {
+  @apply relative overflow-hidden rounded-2xl bg-gradient-to-br from-background to-primary/5
+         border border-white/20 shadow-xl backdrop-blur-sm
+         hover:shadow-2xl hover:scale-[1.02] hover:border-primary/30
+         transition-all duration-300 ease-out;
+}
+
+.service-card::after {
+  @apply content-[''] absolute inset-0 bg-gradient-to-br from-transparent to-primary/10 opacity-0
+         transition-opacity duration-300;
+}
+
+.service-card:hover::after {
+  @apply opacity-100;
+}
+
+.floating-icon {
+  @apply animate-bounce-subtle;
+}
